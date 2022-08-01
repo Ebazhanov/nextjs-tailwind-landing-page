@@ -24,16 +24,14 @@ const Slider = ({ slides }: Props) => {
 
   return (
     <div id="gallery" className="max-w-[1240px] mx-auto">
-      <h1 className="text-2xl font-bold text-center p-4">Gallery</h1>
+      <h1 className="text-2xl font-bold text-center p-4 py-0">Gallery</h1>
       <div className="relative flex justify-center p-4">
         {SliderData.map((slide, index) => {
           return (
             <div
               key={index}
               className={
-                index === current
-                  ? "opacity-[1] ease-in duration-1000"
-                  : "opacity-0"
+                index === current ? "opacity-[1] ease-in" : "opacity-0"
               }
             >
               <FaArrowCircleLeft

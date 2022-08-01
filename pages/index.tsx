@@ -3,10 +3,11 @@ import Head from "next/head";
 import Hero from "../components/Hero/Hero";
 import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
+import Instagram from "../components/InstagramGallery/Instagram";
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Keep moving</title>
         <meta
@@ -17,7 +18,8 @@ const Home: NextPage = () => {
       </Head>
       <Hero heading="Let's go jogging" message="Find your road" />
       <Slider slides={SliderData} />
-    </div>
+      <Instagram />
+    </>
   );
 };
 
