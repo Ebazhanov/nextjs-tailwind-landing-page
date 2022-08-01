@@ -1,0 +1,1 @@
+# Nextjs with Tailwind, landing page template
