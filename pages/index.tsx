@@ -15,7 +15,7 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading="Let's go jogging" message="Need a guide?" />
+      <Hero heading="Let's go jogging" message="Find your road" />
       <Slider slides={SliderData} />
     </div>
   );
