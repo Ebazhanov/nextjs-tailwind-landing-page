@@ -4,6 +4,7 @@ import Hero from "../components/Hero/Hero";
 import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
 import Instagram from "../components/InstagramGallery/Instagram";
+import Portfolio from "../components/Portfolio/Portfolio";
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <Hero heading="Let's go jogging" message="Find your road" />
       <Slider slides={SliderData} />
       <Instagram />
+      <Portfolio />
     </>
   );
 };
