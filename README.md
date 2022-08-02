@@ -7,7 +7,7 @@
 
 -------
 
-### Also below some more interesting things
+### Also below some more interesting things i have learned
 
 - Example of freezed NavBar [components/NavigationBar/NavBar.tsx](components/NavigationBar/NavBar.tsx)
 
@@ -25,7 +25,7 @@
     window.addEventListener("scroll", changeColor);
   }, []);
 ```
-...
+--------
 
 - Slider [components/Slider/Slider.tsx](components/Slider/Slider.tsx)
 
@@ -87,6 +87,8 @@ const Slider = ({ slides }: Props) => {
 };
 ```
 
+--------
+
 - Look how you can do set the root to different part (please do not forget to put `id="portfolio"` for smooth scrolling)
 ```js
 <Link href="/portfolio">My roads</Link>
@@ -107,11 +109,9 @@ const Portfolio = () => {
                         height="451"
                     />
 ```
-
-
-
+---------
 
 
 #### Reference:
-- thank you [@Clint Briley](https://www.youtube.com/watch?v=HVyct9EUNP8)
+- thanks goes to @Clint Briley [youtube](https://www.youtube.com/watch?v=HVyct9EUNP8), [repo](https://github.com/fireclint/NextJS-Tailwind-Responsive)
 - try it out [Pesticide for Chrome](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi)

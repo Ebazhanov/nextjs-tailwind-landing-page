@@ -5,6 +5,7 @@ import Slider from "../components/Slider/Slider";
 import { SliderData } from "../components/Slider/SliderData";
 import Instagram from "../components/InstagramGallery/Instagram";
 import Portfolio from "../components/Portfolio/Portfolio";
+import Contact from "../components/Contact/Contact";
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <Slider slides={SliderData} />
       <Instagram />
       <Portfolio />
+      <Contact />
     </>
   );
 };
