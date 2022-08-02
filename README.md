@@ -89,7 +89,7 @@ const Slider = ({ slides }: Props) => {
 
 --------
 
-- Look how you can do set the root to different part (please do not forget to put `id="portfolio"` for smooth scrolling)
+- Set the root to navigate to different part of the page (please do not forget to put `id="portfolio"` for smooth scrolling)
 ```js
 <Link href="/portfolio">My roads</Link>
 ```
