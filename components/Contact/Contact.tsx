@@ -2,7 +2,7 @@ import React from "react";
 
 const contact = () => {
   return (
-    <div className="max-w-[1240px] m-auto p-44 h-screen">
+    <div className="max-w-[1240px] m-auto p-4 h-screen">
       <h1 className="text-2xl font-bold text-center p-4">
         Send me a 🏃 message
       </h1>
